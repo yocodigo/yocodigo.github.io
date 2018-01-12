@@ -191,7 +191,6 @@ img {
 	opacity: 0.5;
     filter: alpha(opacity=50);
 }
-}
 
 footer {
 	background-color: #cccccc;
@@ -201,7 +200,6 @@ footer {
 	bottom: 0;
 	width: 100%;
 	border-top: 5px solid #4aaaa5;
-
 }
 
 

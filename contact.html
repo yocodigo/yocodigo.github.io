@@ -1,55 +1,69 @@
-<!-- STUDENTS: Head to float.css for your assignment -->
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Joel's Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  
+      <meta charset="UTF-8">
+      <title>Joel's Portfolio</title>
+      <link rel="stylesheet" type="text/css" href="assets/reset.css">
+      <link rel="stylesheet" type="text/css" href="assets/style.css">
+
 </head>
 
-<body>
+<body background="images/nice_snow.png">
 
   <header>
-    Joel Hernandez
+      
+    <h1 id="name">Joel Hernandez</h1>
+        
+        <div class="wrapper">
 
-  <div id="left">
-    About Me
-    <img src="images/me.png">
-  </div>
+                <div id="right"><a href="#">Contact</a></div>
+                <div id="middle"><a href="portfolio.html">Portfolio</a></div>
+                <div id="left"><a href="index.html">About</a></div>
 
-  <div id="middle">
-    Portfolio
-  </div>
-
-  <div id="right">
-    Contact
-  </div>
+        </div>   
 
   </header>
 
-  <section id="full">
-    <aside>
-      Contact
-    <form>
-      <label>Name</label> <br>
-        <input type="text" name="name" placeholder="John Smith"> <br>
-      <label>Email</label> <br>
-        <input type="text" name="email" placeholder="example@gmail.com"> <br>
-      <label>Message</label> <br>
-        <textarea></textarea> <br>
-      <button>Submit</button>
-    </form>
-    </aside>
-      (background area)
-    <div id="division">
-      Connect with Me
-    </div>
-  </section>
+    <section class="clearfix">
 
-  <footer>
-    Copyright @ 2018 Joel Hernandez  
-  </footer>
+            <aside class="formbox">
+              <h1 id="boxtitle">Contact</h1>
+              <form class="contactinfo">
+                    <div class="formlabel">
+                    <label>Name</label> <br>
+                    <input type="text" name="name" placeholder="John Smith"> <br>
+                    </div>
+                    <div class="formlabel"> 
+                    <label>Email</label> <br>
+                    <input type="text" name="email" placeholder="example@gmail.com"> <br>
+                    </div>
+                    <div class="formlabel"> 
+                    <label>Message</label> <br>
+                      <textarea></textarea> <br>
+                    </div>  
+                    <br>
+                <div class="formlabel">     
+                <button>Submit</button>
+                </div>
+              </form>
+            </aside>
+     
+            <aside class="connectbox">
+                    <h1 id="connectme">Connect with Me</h1>
+                    
+                    <div class="icons">
+                          <img id="github" src="images/github.png">
+                          <img id="linkedin" src="images/linkedin.png">
+                          <img id="stackoverflow" src="images/stackoverflow.png">
+                    </div>
+
+            </aside>
+
+    </section>
+
+  <footer>Copyright @ 2018 Joel Hernandez</footer>
 
 </body>
 

@@ -1,61 +1,79 @@
-<!-- STUDENTS: Head to float.css for your assignment -->
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Joel's Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  
+      <meta charset="UTF-8">
+      <title>Joel's Portfolio</title>
+      <link rel="stylesheet" type="text/css" href="assets/reset.css">
+      <link rel="stylesheet" type="text/css" href="assets/style.css">
+
 </head>
 
-<body>
+<body background="images/nice_snow.png">
 
   <header>
-    Joel Hernandez
+      
+    <h1 id="name">Joel Hernandez</h1>
+        
+        <div class="wrapper">
 
-  <div id="left">
-    About Me
-    <img src="images/me.png">
-  </div>
+                <div id="right"><a href="contact.html">Contact</a></div>
+                <div id="middle"><a href="#">Portfolio</a></div>
+                <div id="left"><a href="index.html">About</a></div>
 
-  <div id="middle">
-    Portfolio
-  </div>
-
-  <div id="right">
-    Contact
-  </div>
+        </div>   
 
   </header>
 
-  <section id="full">
-    <aside>
-      Portfolio
-      <div id="pic1">
-      <img src="images/hangman.png">
-      </div>
-      <div id="pic2">
-      <img src="images/rock_paper_scissors.png">
-      </div>
-      <div id="pic3">
-      <img src="images/rutgers-info.png">
-      </div>
-      <div id="pic4">
-      <img src="images/life is a game.png">
-      </div>
-      <div id="pic5>
-      <img src="images/trivia.png">
-      </div>
-    </aside>
-      (background area)
-    <div id="division">
-      Connect with Me
-    </div>
-  </section>
+    <section class="clearfix">
 
-  <footer>
-    Copyright @ 2018 Joel Hernandez  
-  </footer>
+            <aside class="portfoliobox">
+              <h1 id="boxtitle">Portfolio</h1>
+              
+              <div class="pic1">
+                <img src="images/trivia.jpg">
+                <h3>Trivia Game</h3>
+              </div>
+                    
+              <div class="pic2">
+                <img src="images/rock.jpg">
+                <h3>Rock Paper Scissors</h3>
+              </div>
+
+              <div class="pic3">
+                <img src="images/widget.jpg">
+                <h3>Rutgers Info Widget</h3>
+              </div>
+
+              <div class="pic4">
+                <img src="images/hangman.jpg">
+                <h3>Hangman</h3>
+              </div>
+
+              <div class="pic5">
+                <img src="images/rpg.jpg">
+                <h3>RPG Game</h3>
+              </div>
+
+        
+        
+            </aside>
+     
+            <aside class="connectbox">
+                    <h1 id="connectme">Connect with Me</h1>
+                    
+                    <div class="icons">
+                          <img id="github" src="images/github.png">
+                          <img id="linkedin" src="images/linkedin.png">
+                          <img id="stackoverflow" src="images/stackoverflow.png">
+                    </div>
+
+            </aside>
+
+    </section>
+
+  <footer>Copyright @ 2018 Joel Hernandez</footer>
 
 </body>
 
